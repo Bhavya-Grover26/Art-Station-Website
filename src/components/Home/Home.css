@@ -1,0 +1,89 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-row {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.image-card {
+  width: calc(16.66% - 20px); /* Adjusted width to accommodate 6 images per row */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  display: inline-block; /* Added to display on the same line */
+  margin-right: 5px; /* Added spacing between image title and heart icon */
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.likes-count {
+  font-size: 14px;
+  position: absolute;
+  top: 170px; /* Adjust the value to position it correctly */
+  right: 10px; /* Adjust the value to position it correctly */
+}
+
+.heart-emoji {
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.heart-emoji svg {
+  color: black; /* Set the initial color to black */
+}
+
+.heart-emoji.active svg {
+  color: red; /* Set the color to red when active (filled) */
+}
+
+.image-card.enlarged {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-card.enlarged .image {
+  max-width: 2060px;
+  max-height: 2000px;
+}
+

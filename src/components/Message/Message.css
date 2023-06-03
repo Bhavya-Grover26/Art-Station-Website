@@ -1,0 +1,62 @@
+.MessagePage {
+    background-color: #fafafa;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .MessageHeader {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .MessageTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .MessageList {
+    margin-top: 20px;
+  }
+  
+  .MessageItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .MessageAvatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .AvatarImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .MessageContent {
+    margin-left: 20px;
+  }
+  
+  .MessageUsername {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .MessageText {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .MessageTimestamp {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #999;
+  }
+  
